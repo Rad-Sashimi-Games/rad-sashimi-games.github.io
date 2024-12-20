@@ -37,6 +37,11 @@ jobs:
         uses: actions/checkout@v4
         with:
           submodules: recursive
+      - name: Checkout devlog/blog submodule
+        uses: actions/checkout@v4
+        with:
+          repository: https://github.com/Fish-Head-Games/devlogs.git
+          path: src/content/blog
       - name: Pull Submodules
         run: |
           git pull --recurse-submodules
