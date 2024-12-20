@@ -35,6 +35,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Pull Submodules
+        run: |
+          git pull --recurse-submodules
+          git submodule update --remote --recursive
       - name: Detect package manager
         id: detect-package-manager
         run: |
