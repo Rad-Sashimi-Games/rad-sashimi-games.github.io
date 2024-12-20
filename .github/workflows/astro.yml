@@ -42,10 +42,10 @@ jobs:
         with:
           repository: fish-head-games/devlogs
           path: src/content/blog
-      - name: Pull Submodules
-        run: |
-          git pull --recurse-submodules
-          git submodule update --remote --recursive
+      # - name: Pull Submodules
+      #   run: |
+      #     git pull --recurse-submodules
+      #     git submodule update --remote --recursive
       - name: Detect package manager
         id: detect-package-manager
         run: |
