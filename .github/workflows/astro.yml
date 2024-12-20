@@ -8,6 +8,10 @@ on:
   # Runs on pushes targeting the default branch
   push:
     branches: ["main"]
+  
+  schedule:
+    # At the end of every day
+    - cron: "0 0 * * *"
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -35,17 +39,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          submodules: true
-      - name: Checkout devlog/blog submodule
+      - name: Checkout devlog/blog files
         uses: actions/checkout@v4
         with:
           repository: fish-head-games/devlogs
           path: src/content/blog
-      # - name: Pull Submodules
-      #   run: |
-      #     git pull --recurse-submodules
-      #     git submodule update --remote --recursive
       - name: Detect package manager
         id: detect-package-manager
         run: |
