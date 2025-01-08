@@ -44,6 +44,11 @@ jobs:
         with:
           repository: fish-head-games/devlogs
           path: src/content/blog
+      - name: Checkout markdown page files
+        uses: actions/checkout@v4
+        with:
+          repository: fish-head-games/fish-head-games-website-pages
+          path: src/content/pages
       - name: Detect package manager
         id: detect-package-manager
         run: |

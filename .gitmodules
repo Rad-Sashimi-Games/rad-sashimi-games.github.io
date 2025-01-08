@@ -1,3 +1,6 @@
 [submodule "src/content/blog"]
 	path = src/content/blog
 	url = https://github.com/Fish-Head-Games/devlogs.git
+[submodule "src/content/pages"]
+	path = src/content/pages
+	url = https://github.com/Fish-Head-Games/fish-head-games-website-pages.git
