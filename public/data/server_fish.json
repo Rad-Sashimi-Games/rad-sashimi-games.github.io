@@ -1,0 +1,177 @@
+{
+    "fishData": [
+        {
+            "Id": 0,
+            "appearanceData": {
+                "body": {
+                "name": "/Puffer Body",
+                "id": "ea3c2770-a8c8-4c90-a8ed-9a73cdbf6f39",
+                "colorName": "Basic Blue/Blue Color",
+                "colorId": "0f4ed853-0043-4267-a793-45fa9875c735",
+                "scalesId": "2815748c-e694-47e9-97fd-aaffb5f460d7",
+                "scalesName": "Scales 2",
+                "size": 0,
+                "type": 6
+                },
+                "analFin": {
+                "name": "/Puffer Anal Fin",
+                "id": "611d1950-058f-41eb-b344-44086a05196a",
+                "colorName": "/Brown Color",
+                "colorId": "3deb7bee-d289-4a81-85a8-0795506fba78",
+                "scalesId": "9300b950-ef1e-4cc4-90cf-7ea52da14b00",
+                "scalesName": "Scales 3",
+                "size": 0,
+                "type": 0
+                },
+                "dorsalFin": {
+                "name": "/Puffer Dorsal Fin",
+                "id": "2755dfa1-1b94-489b-b170-b4f3edd52788",
+                "colorName": "/Brown Color",
+                "colorId": "3deb7bee-d289-4a81-85a8-0795506fba78",
+                "scalesId": "e475ca23-3166-43dd-a761-79eaf2f57a3f",
+                "scalesName": "Scales 1",
+                "size": 0,
+                "type": 1
+                },
+                "pectoralFins": {
+                "name": "/Puffer Pectoral Fin",
+                "id": "32db4912-72a5-4ec7-ab9c-1f1225fa3559",
+                "colorName": "Generic Green/Green Color",
+                "colorId": "a3976f21-406c-43ab-81ba-0e055658e981",
+                "scalesId": "e475ca23-3166-43dd-a761-79eaf2f57a3f",
+                "scalesName": "Scales 1",
+                "size": 0,
+                "type": 2
+                },
+                "pelvicFins": {
+                "name": null,
+                "id": null,
+                "colorName": null,
+                "colorId": null,
+                "scalesId": null,
+                "scalesName": null,
+                "size": 0,
+                "type": 3
+                },
+                "tail": {
+                "name": "/Puffer Tail",
+                "id": "dfa37eee-1885-4a8e-9f4d-722fb067e7cf",
+                "colorName": "Generic Green/Green Color",
+                "colorId": "a3976f21-406c-43ab-81ba-0e055658e981",
+                "scalesId": "e475ca23-3166-43dd-a761-79eaf2f57a3f",
+                "scalesName": "Scales 1",
+                "size": 0,
+                "type": 4
+                },
+                "eyes": {
+                "name": "/Puffer Eyes",
+                "id": "50df67b1-298a-43b7-9f8a-65e5e52d9ed6",
+                "colorName": "/Cyan Color",
+                "colorId": "062a9da4-85b4-4c7b-93a5-acddb11bb954",
+                "scalesId": "9300b950-ef1e-4cc4-90cf-7ea52da14b00",
+                "scalesName": "Scales 3",
+                "size": 0,
+                "type": 5
+                },
+                "hat": {
+                "name": null,
+                "id": null,
+                "colorName": null,
+                "colorId": null,
+                "scalesId": null,
+                "scalesName": null,
+                "size": 0,
+                "type": 7
+                },
+                "particles": {
+                "name": null,
+                "id": null,
+                "colorName": null,
+                "colorId": null,
+                "scalesId": null,
+                "scalesName": null,
+                "size": 0,
+                "type": 8
+                },
+                "allParts": [
+                {
+                    "name": "/Puffer Body",
+                    "id": "ea3c2770-a8c8-4c90-a8ed-9a73cdbf6f39",
+                    "colorName": "Basic Blue/Blue Color",
+                    "colorId": "0f4ed853-0043-4267-a793-45fa9875c735",
+                    "scalesId": "2815748c-e694-47e9-97fd-aaffb5f460d7",
+                    "scalesName": "Scales 2",
+                    "size": 0,
+                    "type": 6
+                },
+                {
+                    "name": "/Puffer Anal Fin",
+                    "id": "611d1950-058f-41eb-b344-44086a05196a",
+                    "colorName": "/Brown Color",
+                    "colorId": "3deb7bee-d289-4a81-85a8-0795506fba78",
+                    "scalesId": "9300b950-ef1e-4cc4-90cf-7ea52da14b00",
+                    "scalesName": "Scales 3",
+                    "size": 0,
+                    "type": 0
+                },
+                {
+                    "name": "/Puffer Dorsal Fin",
+                    "id": "2755dfa1-1b94-489b-b170-b4f3edd52788",
+                    "colorName": "/Brown Color",
+                    "colorId": "3deb7bee-d289-4a81-85a8-0795506fba78",
+                    "scalesId": "e475ca23-3166-43dd-a761-79eaf2f57a3f",
+                    "scalesName": "Scales 1",
+                    "size": 0,
+                    "type": 1
+                },
+                {
+                    "name": "/Puffer Pectoral Fin",
+                    "id": "32db4912-72a5-4ec7-ab9c-1f1225fa3559",
+                    "colorName": "Generic Green/Green Color",
+                    "colorId": "a3976f21-406c-43ab-81ba-0e055658e981",
+                    "scalesId": "e475ca23-3166-43dd-a761-79eaf2f57a3f",
+                    "scalesName": "Scales 1",
+                    "size": 0,
+                    "type": 2
+                },
+                {
+                    "name": null,
+                    "id": null,
+                    "colorName": null,
+                    "colorId": null,
+                    "scalesId": null,
+                    "scalesName": null,
+                    "size": 0,
+                    "type": 3
+                },
+                {
+                    "name": "/Puffer Tail",
+                    "id": "dfa37eee-1885-4a8e-9f4d-722fb067e7cf",
+                    "colorName": "Generic Green/Green Color",
+                    "colorId": "a3976f21-406c-43ab-81ba-0e055658e981",
+                    "scalesId": "e475ca23-3166-43dd-a761-79eaf2f57a3f",
+                    "scalesName": "Scales 1",
+                    "size": 0,
+                    "type": 4
+                },
+                {
+                    "name": "/Puffer Eyes",
+                    "id": "50df67b1-298a-43b7-9f8a-65e5e52d9ed6",
+                    "colorName": "/Cyan Color",
+                    "colorId": "062a9da4-85b4-4c7b-93a5-acddb11bb954",
+                    "scalesId": "9300b950-ef1e-4cc4-90cf-7ea52da14b00",
+                    "scalesName": "Scales 3",
+                    "size": 0,
+                    "type": 5
+                }
+                ]
+            },
+            "name": "Silly Billy",
+            "age": 0,
+            "size": 4,
+            "speed": 0,
+            "inTank": true,
+            "fishType": 3
+        }
+    ]
+}
