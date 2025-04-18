@@ -42,12 +42,12 @@ jobs:
       - name: Checkout devlog/blog files
         uses: actions/checkout@v4
         with:
-          repository: fish-head-games/devlogs
+          repository: rad-sashimi-games/devlogs
           path: src/content/blog
       - name: Checkout markdown page files
         uses: actions/checkout@v4
         with:
-          repository: fish-head-games/fish-head-games-website-pages
+          repository: rad-sashimi-games/fish-head-games-website-pages
           path: src/content/pages
       - name: Detect package manager
         id: detect-package-manager
